@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private var canAddOperation = false
     private var canAddDecimal = true
-
+    
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
@@ -44,7 +44,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun allClearAction(view: View) {
+    fun allClearAction(view: View) 
+    {
         workingsTV.text = ""
         resultsTV.text = ""
     }
